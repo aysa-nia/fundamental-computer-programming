@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <style>
+
+            /* All Formats */
+
+            @font-face {
+                    font-family: "BBCNassim";
+                    font-weight: normal;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-regular.eot");
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-regular.woff") format("woff"),
+                         url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-regular.ttf") format("truetype");
+            }
+
+            @font-face {
+                    font-family: "BBCNassim";
+                    font-weight: bold;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-bold.eot");
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-bold.woff") format("woff"),
+                         url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-bold.ttf") format("truetype");
+            }
+
+            /* EOT */
+
+            @font-face {
+                    font-family: "BBCNassim-EOT";
+                    font-weight: normal;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-regular.eot");
+            }
+
+            @font-face {
+                    font-family: "BBCNassim-EOT";
+                    font-weight: bold;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-bold.eot");
+            }
+
+            /* WOFF */
+
+            @font-face {
+                    font-family: "BBCNassim-WOFF";
+                    font-weight: normal;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-regular.woff") format("woff");
+            }
+
+            @font-face {
+                    font-family: "BBCNassim-WOFF";
+                    font-weight: bold;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-bold.woff") format("woff");
+            }
+
+            /* TTF */
+
+            @font-face {
+                    font-family: "BBCNassim-TTF";
+                    font-weight: normal;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-regular.ttf") format("truetype");
+            }
+
+            @font-face {
+                    font-family: "BBCNassim-TTF";
+                    font-weight: bold;
+                    font-style: normal;
+                    src: url("http://www.bbc.co.uk/worldservice/fonts/persian/nassim/bbc-nassim-bold.ttf") format("truetype");
+            }
+
+    </style>
+
+    <style>
+
+            body {
+                    font-size: 16pt;
+            }
+
+            div.font {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 30%;
+                    margin: 1em;
+            }
+
+            h2 {
+                    font-family: monospace;
+                    font-size: 120%;
+            }
+
+            .bold {
+                    font-weight: bold;
+            }
+
+            .italic {
+                    font-style: italic;
+            }
+
+            .font-bbcnassim-all {
+                    font-family: "BBCNassim";
+            }
+
+            .font-bbcnassim-eot {
+                    font-family: "BBCNassim-EOT";
+            }
+
+            .font-bbcnassim-woff {
+                    font-family: "BBCNassim-WOFF";
+            }
+
+            .font-bbcnassim-ttf {
+                    font-family: "BBCNassim-TTF";
+            }
+
+    </style>
+    <title>مدیریت اطلاعات بیماران</title>
+    <style>
+      body{
+        background-image: url('https://image.freepik.com/free-photo/medical-desk-arrangement-pink-background-with-copy-space_23-2148502950.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+      }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- NEW -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item active">
+                <a class="nav-link ; bold" aria-current="page" href="{% url 'home' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ; bold" href="{% url 'about' %}">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div
+    class="p-5 text-center bg-image"
+    style="
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-black">
+          <h1 class="mb-3" class="display-1" >Medical Records</h1>
+        </div>
+      </div>
+    </div>
+    <div style="float: right; justify-content: right; justify-items: right" class="font font-bbcnassim-ttf">
+      <form action="{% url 'form' %}" method="POST">
+        <label style="float: right; " for="name" class="bold">نام و نام خانوادگی</label><br />
+        <input
+          style="float: right; clear: both"
+          type="text"
+          name="name"
+        /><br />
+        <label style="float: right; clear: both"  for="address" class="bold">آدرس</label><br>
+        <input style="float: right; clear: both" type="text" name="address" /><br />
+        <label style="float: right; clear: both"  for="phonenumber" class="bold">شماره تلفن همراه</label><br />
+        <input style="float: right; clear: both" type="tel" name="phonenumber" /><br />
+        <label style="float: right; clear: both"  for="introducer" class="bold"> معرف</label><br />
+        <input style="float: right; clear: both" type="text" name="introducer" /><br />
+        <label style="float: right; clear: both"  for="age" class="bold">سن </label><br />
+        <input style="float: right; clear: both" type="number" name="age" /><br />
+        <label style="float: right; clear: both"  for="birthdate" class="bold">تاریخ تولد </label><br />
+        <input style="float: right; clear: both" type="date" name="birthdate" /><br />
+        <label style="float: right; clear: both"  for="height" class="bold"> قد (سانتی متر)</label><br />
+        <input style="float: right; clear: both" type="number" name="height" /><br />
+        <label style="float: right; clear: both"  for="weight" class="bold">وزن(کیلوگرم)</label><br />
+        <input style="float: right; clear: both" type="number" name="weight" /><br />
+        <label style="float: right; clear: both"  for="gender" class="bold">جنسیت </label>
+        <select class="custom-select custom-select-lg mb-3">
+          <option selected class="bold">جنسیت</option>
+          <option value="male" class="bold">مرد</option>
+          <option value="female" class="bold">زن</option></select
+        ><br />
+        <label style="float: right; clear: both"  for="illness" class="bold">
+          آیا بیماری خاص دارید ؟ نوع بیماری را مشخص کنید </label
+        ><br />
+        <div class="form-check form-check-inline">
+          <input style="float: right; clear: both" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="yes">
+          <label style="float: right; clear: both" class="form-check-label" for="inlineRadio1">بله</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input style="float: right; clear: both" class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+          <label style="float: right; clear: both" class="form-check-label" for="inlineRadio2">خیر</label>
+        </div>
+        <input style="float: right; clear: both" type="text" name="explain" /><br />
+        <label style="float: right; clear: both"  for="drug" class="bold">داروهای مصرفی</label><br />
+        <input style="float: right; clear: both" type="text" name="drug" /><br />
+        <label style="float: right; clear: both"  for="visit date" class="bold">تاریخ مراجعه</label><br />
+        <input style="float: right; clear: both" type="date" name="visitdate" /><br />
+        <label style="float: right; clear: both"  for="testresult" class="bold">نتیجه آزمایش </label><br />
+        <input style="float: right; clear: both" type="text" name="testresult" /><br />
+        <label style="float: right; clear: both"  for="prescription" class="bold">داروهای تجویزی</label><br />
+        <input style="float: right; clear: both" type="text" name="prescription" /><br />
+        <label style="float: right; clear: both"  for="primary diagnose" class="bold">تشخیص اولیه </label><br />
+        <input style="float: right; clear: both" type="text" name="primarydiagnose" /><br />
+        <label style="float: right; clear: both"  for="need more visit" class="bold" >نیاز به مراجعه مجدد دارید ؟ وقت بعدی را تعیین نمایید </label>
+        <input style="float: right; clear: both"
+          type="datetime-local"
+          name="needmorevisitdate"
+        /><br /><br /><br /><br /><br><br><br><br><br>
+        <a href="{% url 'show' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">نمایش اطلاعات ذخیره شده</a>
+        <input class="btn btn-primary btn-lg active" type="submit" value="ذخیره اطلاعات" />
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
